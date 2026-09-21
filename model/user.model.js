@@ -4,13 +4,13 @@ let userSchema = new mongoose.Schema({
     FastName:String,
     LastName:String,
     age:Number,
-    Gender:String,
+    gender:String,
     email:String,
     phone:String,
     user:String,
     password:String,
     birthDate:String,
-    bloodGroup:String
+    bloodGroup:String,
 })
 
 const usermodel = mongoose.model("User", userSchema)
