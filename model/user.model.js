@@ -11,6 +11,7 @@ let userSchema = new mongoose.Schema({
     password:String,
     birthDate:String,
     bloodGroup:String,
+    eyeclour:String
 })
 
 const usermodel = mongoose.model("User", userSchema)
