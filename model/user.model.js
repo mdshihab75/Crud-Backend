@@ -13,10 +13,10 @@ let userSchema = new mongoose.Schema({
     bloodGroup:String,
     eyeclour:String,
     nid:Number,
-     hair: {
-        "color": "Brown",
-        "type": "Curly"
-      },
+    hair: {
+    color: String,
+    type: String
+}
 })
 
 const usermodel = mongoose.model("User", userSchema)
