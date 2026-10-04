@@ -13,10 +13,12 @@ let userSchema = new mongoose.Schema({
     bloodGroup:String,
     eyeclour:String,
     nid:Number,
+    country:String,
     hair: {
     color: String,
     type: String
-}
+},
+
 })
 
 const usermodel = mongoose.model("User", userSchema)
