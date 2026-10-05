@@ -14,6 +14,7 @@ let userSchema = new mongoose.Schema({
     eyeclour:String,
     nid:Number,
     country:String,
+    address:String,
     hair: {
     color: String,
     type: String
