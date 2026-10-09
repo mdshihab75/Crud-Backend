@@ -17,8 +17,8 @@ let userSchema = new mongoose.Schema({
     address:String,
     city: String,
         state: String,
-        stateCode: number,
-        postalCode: "29112",
+        stateCode: Number,
+        postalCode: Number,
     hair: {
     color: String,
     type: String
