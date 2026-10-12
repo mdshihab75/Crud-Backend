@@ -14,7 +14,7 @@ let userSchema = new mongoose.Schema({
     eyeclour:String,
     nid:Number,
     height: Number,
-      "weight": 63.16,
+      weight: Number,
     country:String,
     address:String,
     city: String,
