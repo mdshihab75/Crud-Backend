@@ -12,6 +12,7 @@ let userSchema = new mongoose.Schema({
     birthDate:String,
     bloodGroup:String,
     eyeclour:String,
+    religion:String,
     nid:Number,
     height: Number,
       weight: Number,
