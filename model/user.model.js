@@ -9,7 +9,7 @@ let userSchema = new mongoose.Schema({
     phone:String,
     user:String,
     password:String,
-    birthDate:String,
+    birthofDate:String,
     bloodGroup:String,
     eyeclour:String,
     religion:String,
