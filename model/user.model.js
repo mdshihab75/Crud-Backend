@@ -13,6 +13,7 @@ let userSchema = new mongoose.Schema({
     bloodGroup:String,
     eyeclour:String,
     religion:String,
+    facality:String,
     nationallty:String,
     ocupation:String,
     nid:Number,
