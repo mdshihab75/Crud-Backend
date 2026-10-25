@@ -15,6 +15,7 @@ let userSchema = new mongoose.Schema({
     religion:String,
     facality:String,
     subject:String,
+    yearfinal:String,
     nationallty:String,
     ocupation:String,
     nid:Number,
