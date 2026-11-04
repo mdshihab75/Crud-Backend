@@ -19,6 +19,7 @@ let userSchema = new mongoose.Schema({
     examdate:String,
     postalCode:String,
     keyword:Number,
+    skin:String,
     nationallty:String,
     ocupation:String,
     nid:Number,
