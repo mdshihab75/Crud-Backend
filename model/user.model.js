@@ -20,7 +20,6 @@ let userSchema = new mongoose.Schema({
     postalCode:String,
     keyword:Number,
     skin:String,
-    personality:String,
     nationallty:String,
     ocupation:String,
     nid:Number,
