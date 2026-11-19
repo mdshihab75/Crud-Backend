@@ -10,7 +10,6 @@ let userSchema = new mongoose.Schema({
     user:String,
     password:String,
     birthofDate:String,
-    bloodGroup:String,
     religion:String,
     postalCode:String,
     nationallty:String,
