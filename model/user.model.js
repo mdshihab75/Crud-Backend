@@ -23,11 +23,6 @@ let userSchema = new mongoose.Schema({
         state: String,
         stateCode: Number,
         postalCode: Number,
-    hair: {
-    color: String,
-    type: String
-},
-
 })
 
 const usermodel = mongoose.model("User", userSchema)
